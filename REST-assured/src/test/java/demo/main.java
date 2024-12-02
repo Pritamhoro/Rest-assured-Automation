@@ -17,7 +17,8 @@ public class main {
 		
 		System.out.println(response.statusCode());
 		System.out.println(response.asPrettyString());
-
+		int statusode=response.getStatusCode();
+		Assert.assertEquals(statusode, 200);
 		
 	}
 
