@@ -21,5 +21,16 @@ public class main {
 		Assert.assertEquals(statusode, 200);
 		
 	}
+	
+	@Test
+	public void test_2() 
+	{
+		baseURI="https://reqres.in/";
+		given().get("api/users/2").
+		then().
+		statusCode(200).
+		body("data.first_name", equalTo("Janet")).
+		log().all();
+	}
 
 }
