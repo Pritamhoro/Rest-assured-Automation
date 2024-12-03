@@ -30,7 +30,7 @@ public class main {
 		then().
 		statusCode(200).
 		body("data.first_name", equalTo("Janet")).
-		log().all();
+		log().body();
 	}
 
 }
