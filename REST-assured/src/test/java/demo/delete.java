@@ -12,23 +12,10 @@ import java.util.Map;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
-
-public class patch 
+public class delete 
 {
-	@Test
-	public void ptach_req() 
+	public void delete_res() 
 	{
-
-	baseURI="https://reqres.in/api";
 		
-		given().
-			header("Content-Type","application/json").
-		when().
-			delete("/api/users/2").
-		then().
-			statusCode(204);
-
-	
 	}
 }
