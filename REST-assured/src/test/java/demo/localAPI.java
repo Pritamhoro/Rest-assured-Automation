@@ -61,4 +61,12 @@ public class localAPI
 			statusCode(200).
 			log().body();
 	}
+	
+	@Test
+	public void Delete() 
+	{
+		baseURI="http://localhost:3000";
+		given().
+		delete("/Users/91b7").then().statusCode(200);
+	}
 }
