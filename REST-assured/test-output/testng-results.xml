@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-05T08:27:52 IST" name="Default suite" finished-at="2024-12-05T08:27:55 IST" duration-ms="3246">
+  <suite started-at="2024-12-06T08:15:36 IST" name="Default suite" finished-at="2024-12-06T08:15:39 IST" duration-ms="3269">
     <groups>
     </groups>
-    <test started-at="2024-12-05T08:27:52 IST" name="Default test" finished-at="2024-12-05T08:27:55 IST" duration-ms="3246">
+    <test started-at="2024-12-06T08:15:36 IST" name="Default test" finished-at="2024-12-06T08:15:39 IST" duration-ms="3269">
       <class name="demo.SOAPAPI">
-        <test-method signature="validateSOAPXML()[pri:0, instance:demo.SOAPAPI@38c6f217]" started-at="2024-12-05T08:27:52 IST" name="validateSOAPXML" finished-at="2024-12-05T08:27:55 IST" duration-ms="3179" status="PASS">
+        <test-method signature="validateSOAPXML()[pri:0, instance:demo.SOAPAPI@38c6f217]" started-at="2024-12-06T08:15:36 IST" name="validateSOAPXML" finished-at="2024-12-06T08:15:39 IST" duration-ms="3191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSOAPXML -->
